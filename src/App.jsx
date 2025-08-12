@@ -13,7 +13,7 @@ import Source from "./components/Sourcee/Source";
 import AdminDashboard from "./AdminDashboard"; // 🔥 Import Halaman Admin
 import WaiconPopup from "./components/waicon.jsx";
 import ProjectGalery from "./helper/project.jsx";
-import Pricing from "./components/Pricing/Pricing"; // Impor komponen Pricing
+
 import Form from "./components/Form/Form"; // Pastikan path import ini sudah benar
 
 
@@ -49,7 +49,6 @@ const App = () => {
                 <AppStore />
                 {/* <Testimonial /> */}
                 {/* <Subscribe /> */}
-                <Pricing />
                 <Form />
                 
               </>
