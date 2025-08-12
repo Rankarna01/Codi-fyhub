@@ -4,7 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Banner/Banner";
 import AppStore from "./components/AppStore/AppStore";
-import Subscribe from "./components/Subscribe";
+
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import Produk from "./components/Produk/Produk";
@@ -13,7 +13,7 @@ import Source from "./components/Sourcee/Source";
 import AdminDashboard from "./AdminDashboard"; // 🔥 Import Halaman Admin
 import WaiconPopup from "./components/waicon.jsx";
 import ProjectGalery from "./helper/project.jsx";
-import Pricing from "./components/Pricing/Pricing";
+import Pricing from "./components/Pricing/Pricing"; // Impor komponen Pricing
 import Form from "./components/Form/Form"; // Pastikan path import ini sudah benar
 
 
