@@ -1,5 +1,6 @@
-// src/Pricing.jsx
+// src/components/Pricing.jsx
 import React from 'react';
+import PropTypes from 'prop-types'; // Import PropTypes
 
 // Data untuk setiap paket pricing
 const pricingPlans = [
@@ -89,6 +90,18 @@ const PricingCard = ({ plan }) => {
     </div>
   );
 };
+
+// Menambahkan PropTypes untuk validasi prop 'plan'
+PricingCard.propTypes = {
+  plan: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+    details: PropTypes.string.isRequired,
+    features: PropTypes.arrayOf(PropTypes.string).isRequired,
+    headerColor: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
 
 // Komponen utama yang merender semua kartu
 const Pricing = () => {
